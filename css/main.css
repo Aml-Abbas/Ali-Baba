@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha+One');
+
+html{
+box-sizing: border-box;
+
+}
+*::before, *::after{box-sizing: inherit;
+    margin: 0%;
+}
+body{
+font-family: 'Rozha One', serif;
+background-color: lightblue;
+
+}
+header {
+    text-align: center;
+    background-color: lightcoral;
+    padding: 30px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content{
+padding: 1em 4em;
+}
+.products .product-list{
+padding-left: 0px;
+list-style: none;
+}
+.products .product-list .product{
+    margin: 1%;
+    height: 600px;
+    background-color: lightcoral;
+}
+.products .product-list .product img{
+width: 100%;
+
+}
+.products .product-list .product .product-content{
+    padding: 2px;
+    
+    }
+    .products .product-list .product .product-content h4 small{
+ font-size: 10px;       
+        }
+        .products .product-list .product button{
+            display: block;
+            margin: 2% auto;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            border-radius: 15px;
+            outline: none;
+            }
+            .cart .cart-list {
+                padding-left: 0px;
+                list-style: none;
+            }
+            .cart .cart-list .item h4, .cart .cart-list .item .close {
+display: inline;
+            }
+            .products .sport-list{
+                padding-left: 0px;
+                list-style: none;
+                }
+                .products .sport-list .product{
+                    margin: 1%;
+                    height: 600px;
+                    background-color: lightcoral;
+                }
+                .products .sport-list .product img{
+                width: 100%;
+                
+                }
+                .products .sport-list .product .product-content{
+                    padding: 2px;
+                    
+                    }
+                    .products .sport-list .product .product-content h4 small{
+                 font-size: 10px;       
+                        }
+                        .products .sport-list .product button{
+                            display: block;
+                            margin: 2% auto;
+                            padding: 10px 15px;
+                            text-transform: uppercase;
+                            border-radius: 15px;
+                            outline: none;
+                            }
+                            .products .telefoner-list{
+                                padding-left: 0px;
+                                list-style: none;
+                                }
+                                .products .telefoner-list .product{
+                                    margin: 1%;
+                                    height: 600px;
+                                    background-color: lightcoral;
+                                }
+                                .products .telefoner-list .product img{
+                                width: 100%;
+                                
+                                }
+                                .products .telefoner-list .product .product-content{
+                                    padding: 2px;
+                                    
+                                    }
+                                    .products .telefoner-list .product .product-content h4 small{
+                                 font-size: 10px;       
+                                        }
+                                        .products .telefoner-list .product button{
+                                            display: block;
+                                            margin: 2% auto;
+                                            padding: 10px 15px;
+                                            text-transform: uppercase;
+                                            border-radius: 15px;
+                                            outline: none;
+                                        }
+                                        .slider-holder
+                                        {
+                                            width: 800px;
+                                            height: 400px;
+                                            background-color: yellow;
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            margin-top: 0px;
+                                            text-align: center;
+                                            overflow: hidden;
+                                        }
+                                        
+                                        .image-holder
+                                        {
+                                            width: 2400px;
+                                            background-color: red;
+                                            height: 400px;
+                                            clear: both;
+                                            position: relative;
+                                            
+                                            -webkit-transition: left 2s;
+                                            -moz-transition: left 2s;
+                                            -o-transition: left 2s;
+                                            transition: left 2s;
+                                        }
+                                        
+                                        .slider-image
+                                        {
+                                            float: left;
+                                            margin: 0px;
+                                            padding: 0px;
+                                            position: relative;
+                                        }
+                                        
+                                        #slider-image-1:target ~ .image-holder
+                                        {
+                                            left: 0px;
+                                        }
+                                        
+                                        #slider-image-2:target ~ .image-holder
+                                        {
+                                            left: -800px;
+                                        }
+                                        
+                                        #slider-image-3:target ~ .image-holder
+                                        {
+                                            left: -1600px;
+                                        }
+                                        
+                                        .button-holder
+                                        {
+                                            position: relative;
+                                            top: -20px;
+                                        }
+                                        
+                                        .slider-change
+                                        {
+                                            display: inline-block;
+                                            height: 10px;
+                                            width: 10px;
+                                            border-radius: 5px;
+                                            background-color: lightcoral;
+                                        }
+                                        .slider-image{
+                                            height: 400px;
+                                            width: 800px;
+                                        }
+                                        .product-list{
+                                            height: 630px;
+background-color: lightgray;
+                                            overflow: scroll;
+                                        }
+                                        .sport-list{
+                                            height: 630px;
+                                            background-color: lightgray;
+                                            overflow: scroll;
+                                        }
+                                        .telefoner-list{
+                                            height: 630px;
+                                            background-color: lightgray;
+                                            overflow: scroll;
+                                        }
+footer {
+    background-color: lightcoral;
+
+}
+Kundvagnen{
+    background-color: lightcoral;
+}
